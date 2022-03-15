@@ -2,9 +2,11 @@ package com.example.demo.Item.Service;
 
 import com.example.demo.Item.Model.Item;
 import com.example.demo.Item.Repository.ItemRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ItemService {
     private ItemRepository itemRepository;
 
